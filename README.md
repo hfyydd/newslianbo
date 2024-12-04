@@ -16,7 +16,7 @@
 
 ```bash
 git clone https://github.com/hfyydd/newslianbo
-cd news-analysis
+cd newslianbo
 pip install -r requirements.txt
 ```
 
