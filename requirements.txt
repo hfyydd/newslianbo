@@ -1,6 +1,29 @@
-requests
-beautifulsoup4
-selenium
-webdriver_manager
-pytube
-yt-dlp
+# 核心依赖
+streamlit>=1.28.0
+openai-whisper>=20231117
+yt-dlp>=2023.11.16
+torch>=2.1.0
+tqdm>=4.66.1
+
+# API 客户端依赖
+requests>=2.31.0
+
+# 音视频处理
+ffmpeg-python>=0.2.0
+
+# 工具依赖
+python-dotenv>=1.0.0
+numpy>=1.24.0
+pandas>=2.1.0
+
+# 可选依赖（用于加速）
+# GPU 支持 (取消注释以启用)
+# torch>=2.1.0+cu118  # CUDA 11.8 版本
+# torchvision>=0.16.0+cu118
+# torchaudio>=2.1.0+cu118
+
+# 开发工具（可选）
+# pytest>=7.4.0
+# black>=23.11.0
+# flake8>=6.1.0
+# isort>=5.12.0

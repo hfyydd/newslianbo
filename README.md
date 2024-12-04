@@ -15,7 +15,7 @@
 1. 克隆项目并安装依赖：
 
 ```bash
-git clone https://github.com/you
+git clone https://github.com/hfyydd/newslianbo
 cd news-analysis
 pip install -r requirements.txt
 ```
@@ -24,8 +24,10 @@ pip install -r requirements.txt
 
 
 2. 配置 API Key：
+```bash
    - 获取 [Dify](https://dify.ai) API Key
    - 在 app.py 中替换 API Key
+```
 
 
 
@@ -46,6 +48,7 @@ streamlit run app.py
    - 在对话框中提问，进行深入交流
 
 ## 项目结构
+```bash
 .
 ├── app.py # Streamlit 主应用
 ├── get_news.py # 新闻下载和转录模块
@@ -54,6 +57,7 @@ streamlit run app.py
 ├── downloads/ # 视频下载目录
 ├── transcripts/ # 转录文本存储
 └── analysis_results/ # 分析结果存储
+```
 
 
 ## 分析规则
@@ -85,22 +89,23 @@ streamlit run app.py
    - 批评某类行为 = 相关监管政策可能出台
 
 ## 技术依赖
-
+```bash
 - Python 3.8+
 - Streamlit
 - OpenAI Whisper
 - yt-dlp
 - PyTorch
 - Dify API
+```
 
 ## 环境要求
-
+```bash
 - 操作系统：Windows/Linux/MacOS
 - Python 版本：3.8 或更高
 - 内存：建议 8GB 以上
 - 磁盘空间：建议预留 10GB 以上（用于存储视频和模型）
 - GPU：可选（有 GPU 可加速转录过程）
-
+```
 ## 常见问题
 
 1. 视频下载失败
@@ -148,7 +153,6 @@ MIT License
 如有问题或建议，请通过以下方式联系：
 
 - 提交 Issue
-- 发送邮件至：[your-email@example.com]
 
 ## 致谢
 
