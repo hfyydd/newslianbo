@@ -18,16 +18,23 @@
 git clone https://github.com/you
 cd news-analysis
 pip install -r requirements.txt
+```
+
+
+
 
 2. 配置 API Key：
    - 获取 [Dify](https://dify.ai) API Key
    - 在 app.py 中替换 API Key
+
+
 
 ## 使用方法
 
 1. 启动应用：
 ```bash
 streamlit run app.py
+```
 
 2. 在浏览器中访问应用（默认地址：http://localhost:8501）
 
